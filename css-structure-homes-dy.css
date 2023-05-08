@@ -1,0 +1,480 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&family=Poppins:wght@200;400;500;600;700&display=swap");
+/********HEADER SITE********/
+body,
+.header.header-full,
+.primary-header {
+  background: #f3ece5;
+}
+.header.header-full .header-search {
+  padding-top: 0px;
+  margin-top: -3px;
+}
+.header-bar {
+  display: none;
+}
+.primary-header {
+  height: 46px;
+  margin: 10px 0 0;
+}
+.header.header-full .help-menu {
+  top: 80px;
+}
+.menu.sub-menu {
+  margin-top: -3px;
+}
+.header-fixed .menu.sub-menu {
+  margin-top: 0px;
+}
+.logo-dafiti-main-image {
+  width: auto;
+  height: 32px !important;
+}
+
+/********GERAL********/
+.l-full-content.l-container {
+  min-width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 0;
+}
+.staticpage {
+  padding: 0 !important;
+}
+.full-content-home {
+  min-width: 100%;
+  max-width: 100%;
+  margin: 0px auto;
+  font-family: "Poppins", sans-serif;
+  background: #f3ece5;
+}
+.limit-width {
+  max-width: 100%;
+}
+.section-title h2 {
+  font-size: 41px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  border: none;
+  margin: 60px 0;
+}
+.section-title h2 {
+  border: none;
+}
+.section-title b {
+  font-weight: 600;
+  font-style: normal;
+}
+.footer-itns-display {
+  width: 100%;
+  text-align: center;
+  color: #4a4a4a;
+  font-size: 12px;
+  margin: 20px 0;
+}
+/********CARROSSEL********/
+.dot {
+  width: 10px !important;
+  height: 10px !important;
+  padding: 0 !important;
+  background: none !important;
+  border: 1.5px solid #fff !important;
+  box-shadow: 0 0 2px 1px rgb(0 0 0 / 50%) !important;
+}
+.dot-active {
+  background: #fff !important;
+  border: none !important;
+  height: 10px !important;
+  width: 28px !important;
+  border-radius: 11px !important;
+  padding: 0 !important;
+  box-shadow: 0 0 2px 1px rgb(0 0 0 / 50%) !important;
+}
+#arrow-right,
+#arrow-left {
+  width: 20px !important;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+}
+#arrow-right {
+  border-radius: 5px 30px 30px 5px;
+}
+#arrow-left {
+  border-radius: 30px 5px 5px 30px;
+}
+
+/********SEO********/
+.text-seo {
+  color: #baa67f;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  margin: 20px auto;
+}
+.texto-apoio-seo {
+  max-width: 1100px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 140%;
+  text-align: center;
+  color: #2d2d2d;
+  margin: 0 auto;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.texto-apoio-seo h2 {
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  margin: 8px 0;
+}
+.texto-apoio-seo h3 {
+  font-weight: 700;
+  margin: 10px 0;
+}
+.texto-apoio-seo a {
+  color: #000;
+  text-decoration: underline;
+}
+.texto-apoio-seo-big {
+  display: block !important;
+  height: auto;
+  transition: height 0.5s;
+}
+.more-info-seo {
+  max-width: 150px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: lowercase;
+  text-decoration: underline;
+  margin: 24px auto;
+  cursor: pointer;
+}
+/********TARJA USPs********/
+#unique-selling-proposition {
+  margin-bottom: -10px;
+}
+.tarja-usp {
+  width: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  padding: 14px 10px;
+}
+.tarja-usp ul {
+  width: 1200px;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.tarja-usp a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #666666;
+  display: flex;
+  align-items: center;
+}
+.tarja-usp img {
+  width: 20px;
+  height: auto;
+  margin-right: 9px;
+}
+/********BANNERS********/
+.banner-sections {
+  margin: 10px 0;
+  font-family: "Poppins";
+}
+.banner-sections .dy_unit {
+  width: 100%;
+}
+
+.banner-content h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.banner-content h4 {
+  font-size: 13px;
+}
+.banner-item-container {
+  width: 100%;
+  float: none !important;
+  margin: 0 auto;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.banner-item-container img {
+  width: 100% !important;
+  height: 100% !important;
+  transition: opacity 0.3s cubic-bezier(0.35, 0.01, 0.77, 0.34);
+}
+.banner-item-container:hover img {
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: transform 0.2s ease;
+  opacity: 1 !important;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/********CLUSTERS********/
+.content-feature {
+  max-width: 100%;
+}
+#feature-desktop .banner-item-container:hover img {
+  opacity: 1;
+}
+
+#cluster-sales > div,
+#cluster-exclusive-brands > div,
+#cluster-sponsor-one > div,
+#cluster-sponsor-two > div,
+#cluster-sponsor-three > div,
+#cluster-content-dzao > div,
+#cluster-official-stores > div {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+#cluster-official-stores > div {
+  flex-direction: row-reverse;
+}
+#cluster-categories .banner-content,
+#cluster-news .banner-content,
+#cluster-content-dzao .banner-content {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  margin: 0 auto;
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+#cluster-categories .banner-content h3,
+#cluster-news .banner-content h3,
+#cluster-content-dzao .banner-content h3 {
+  font-size: calc(10px + 1vw);
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 38px;
+}
+
+/********CLUSTER MARCAS QUE AMAMOS********/
+.banner-sections input[type="radio"] {
+  display: none;
+}
+#cluster-love-brands-skus .banner-item-container {
+  background: #fff;
+}
+#cluster-love-brands-skus .banner-content {
+  color: #000;
+  margin-top: 15px;
+  padding: 0 0 10px 10px;
+}
+#cluster-love-brands-skus .banner-content h4 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.grid-marcas .wrapper-carousel {
+  width: 60%;
+  margin: 0 auto;
+}
+.brands-buttons {
+  grid-column: 2;
+  grid-row: 1;
+  margin-bottom: 25px;
+}
+.brands-slide {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+.brands-slide label {
+  width: 100%;
+  opacity: 1;
+  cursor: pointer;
+  transition: opacity 0.3s cubic-bezier(0.35, 0.01, 0.77, 0.34);
+}
+.brands-slide label img {
+  width: 100%;
+  max-width: 100% !important;
+}
+.brands-slide label:hover {
+  opacity: 0.3;
+}
+#brand-one:checked ~ .grid-marcas *[data-banner="brand-one"],
+#brand-two:checked ~ .grid-marcas *[data-banner="brand-two"],
+#brand-three:checked ~ .grid-marcas *[data-banner="brand-three"],
+#brand-four:checked ~ .grid-marcas *[data-banner="brand-four"],
+#brand-five:checked ~ .grid-marcas * [data-banner="brand-five"] {
+  opacity: 0.3;
+}
+.grid-marcas .wrapper-arrow-left {
+  left: -90px;
+}
+.grid-marcas .wrapper-arrow-right {
+  right: -90px;
+}
+.discount-sku {
+  z-index: 1;
+  font-size: 0.688em;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 1px 10px;
+  color: #adadad;
+  border: 1px solid #adadad;
+  border-radius: 2px;
+  background: #fff;
+}
+.discount-sku:empty {
+  display: none;
+}
+.old-price {
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #999;
+}
+.old-price:empty:before {
+  content: "";
+  margin-right: -6px;
+}
+.old-price:before {
+  content: "R$ ";
+}
+.new-price {
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+.banner-desktop {
+  display: block;
+}
+.banner-mobile {
+  display: none;
+}
+
+@media (max-width: 1440px) {
+  #arrows .arrow {
+    width: 20px !important;
+  }
+  #arrow-right,
+  #arrow-left {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-device-width: 767px) {
+  .banner-desktop {
+    display: none;
+  }
+  .banner-mobile {
+    display: block;
+  }
+  .primary-header {
+    height: auto;
+  }
+  .logo-dafiti-main-image {
+    height: auto !important;
+  }
+  .section-title {
+    font-size: 27px;
+    margin: 30px 0;
+  }
+  .grid-marcas .wrapper-carousel {
+    width: 100%;
+  }
+  #cluster-categories {
+    margin-top: 40px;
+  }
+  #cluster-love-brands-skus .banner-content h4 {
+    font-size: 12px;
+  }
+  .dot {
+    width: 8px !important;
+    height: 8px !important;
+    border: 1.5px solid #000 !important;
+    box-shadow: none !important;
+  }
+  .dot-active {
+    background: #000 !important;
+    width: 28px !important;
+    height: 8px !important;
+    box-shadow: none !important;
+  }
+  .brands-buttons {
+    margin-bottom: 5px;
+  }
+
+  #cluster-categories .banner-content h3,
+  #cluster-news .banner-content h3,
+  #cluster-content-dzao .banner-content h3 {
+    font-size: 15px;
+  }
+
+  #cluster-categories,
+  #cluster-looks,
+  #cluster-news,
+  #cluster-exclusive-brands,
+  #cluster-sales,
+  #cluster-content-dzao,
+  #cluster-sponsor-one,
+  #cluster-sponsor-two,
+  #cluster-sponsor-three,
+  #cluster-official-stores,
+  .brands-buttons {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 6px;
+  }
+
+  #cluster-categories [class*="dy-container"],
+  #cluster-looks [class*="dy-container"],
+  #cluster-news [class*="dy-container"],
+  #cluster-exclusive-brands [class*="dy-container"],
+  #cluster-sales [class*="dy-container"],
+  #cluster-content-dzao [class*="dy-container"],
+  #cluster-sponsor-one [class*="dy-container"],
+  #cluster-sponsor-two [class*="dy-container"],
+  #cluster-sponsor-three [class*="dy-container"],
+  #cluster-official-stores [class*="dy-container"],
+  .brands-slide {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+  }
+
+  #cluster-categories .dy_unit,
+  #cluster-news .dy_unit,
+  #cluster-exclusive-brands .dy_unit,
+  #cluster-content-dzao .dy_unit,
+  #cluster-official-stores .dy_unit,
+  .brands-slide label {
+    width: 27vw;
+  }
+
+  #cluster-looks .dy_unit,
+  #cluster-sales .dy_unit,
+  #cluster-exclusivos .dy_unit,
+  #cluster-sponsor-one .dy_unit,
+  #cluster-sponsor-two .dy_unit,
+  #cluster-sponsor-three .dy_unit {
+    width: 80vw;
+  }
+}
